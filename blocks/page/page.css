@@ -1,0 +1,29 @@
+.page {
+  max-width: 1160px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  font-family: 'Myriad Pro', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media (max-width: 1280px) {
+  .page {
+    margin: 0 60px;
+  }
+}
+
+@media (max-width: 880px) {
+  .page {
+    margin: 0 27px;
+  }
+}
+
+@media (max-width: 550px) {
+  .page {
+    margin: 0 15px;
+  }
+}

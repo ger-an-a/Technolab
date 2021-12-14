@@ -1,0 +1,6 @@
+.menu__item_brand_sphero {
+  background: linear-gradient(to left, rgb(17, 153, 212), rgba(17, 153, 212, 0.7) );
+  box-shadow: 2px 0px 2px rgba(17, 153, 212, .5);
+  position: relative;
+  z-index: 4;
+}

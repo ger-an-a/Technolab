@@ -1,0 +1,9 @@
+.header__link {
+  margin: 0;
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+}
+

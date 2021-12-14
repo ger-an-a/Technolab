@@ -1,0 +1,5 @@
+.menu_content_navigation {
+  grid-area: navigation;
+  background-color: #cacccf;
+  padding: 10px 0 10px 30px;
+}

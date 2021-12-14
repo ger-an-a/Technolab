@@ -1,0 +1,19 @@
+.menu__logo {
+  overflow: hidden;
+  object-fit: cover;
+  height: 25px;
+  margin-top: 4px;
+}
+
+@media (max-width: 880px) {
+  .menu__logo {
+    height: 16px;
+    margin-bottom: 2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu__logo {
+    height: 12px;
+  }
+}

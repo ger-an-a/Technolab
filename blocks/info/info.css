@@ -1,0 +1,23 @@
+.info {
+  margin: 0 0 60px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+  'paragraph-top img'
+  'paragraph-bot img';
+  align-items: center;
+  grid-gap: 30px 80px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-template-areas:
+    'paragraph-top'
+    'img'
+    'paragraph-bot';
+    margin-bottom: 30px;
+  }
+}

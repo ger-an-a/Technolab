@@ -1,0 +1,11 @@
+.link {
+  color: rgba(0, 0, 0, 1);
+  transition: color .2s linear;
+  margin: 0;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, .5);
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, .5);
+}

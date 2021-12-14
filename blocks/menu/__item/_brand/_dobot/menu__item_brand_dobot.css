@@ -1,0 +1,7 @@
+.menu__item_brand_dobot {
+  background: linear-gradient(to left, rgb(38, 74, 161), rgba(38, 74, 161, 0.7) );
+  box-shadow: 2px 0px 2px rgba(38, 74, 161, .5);
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}

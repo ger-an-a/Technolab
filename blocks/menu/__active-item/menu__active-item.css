@@ -1,0 +1,5 @@
+.menu__active-item {
+  color: #fff;
+  position: relative;
+  z-index: 6;
+}
