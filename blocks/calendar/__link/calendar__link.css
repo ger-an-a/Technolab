@@ -1,29 +1,10 @@
 .calendar__link {
-  color: #f0f0f0;
   transition: color .2s linear;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-transform: uppercase;
   position: relative;
   z-index: 2;
-  margin-top: 30px;
-  margin: 20px 0 0 20px;
   text-decoration: none;
 }
 
 .calendar__link:hover {
   color: #fff;
-}
-
-@media (max-width: 880px) {
-  .calendar__link {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .calendar__link {
-    font-size: 16px;
-  }
 }

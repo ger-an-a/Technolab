@@ -1,0 +1,6 @@
+.menu__item_brand_fable {
+  background: linear-gradient(to left, rgb(86, 190, 189), rgba(86, 190, 189, 0.7) );
+  box-shadow: 2px 0px 2px rgba(86, 190, 189, .5);
+  position: relative;
+  z-index: 2;
+}

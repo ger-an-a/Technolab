@@ -1,0 +1,4 @@
+.kit__title {
+  grid-area: title;
+  font-weight: bold;
+}

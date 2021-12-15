@@ -1,0 +1,7 @@
+.calendar_page_123 {
+  background-image: url(../../../images/kalendar-123.PNG);
+}
+
+.calendar_page_123:hover:after {
+  background-color: #7e4184;
+}

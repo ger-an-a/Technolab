@@ -1,0 +1,20 @@
+.calendar__title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin: 20px 0 0 20px;
+}
+
+@media (max-width: 880px) {
+  .calendar__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .calendar__title {
+    font-size: 16px;
+  }
+}

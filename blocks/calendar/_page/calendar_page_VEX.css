@@ -1,0 +1,7 @@
+.calendar_page_VEX {
+  background-image: url(../../../images/kalendar.jpg);
+}
+
+.calendar_page_VEX:hover:after {
+  background-color: #8a8c8f;
+}

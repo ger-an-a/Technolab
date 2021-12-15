@@ -1,0 +1,14 @@
+.kit__img {
+  width: calc(100vw / 3);
+  overflow: hidden;
+  object-fit: cover;
+  grid-area: img;
+  border-radius: 9px;
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 650px) {
+  .kit__img {
+    width: 70%;
+  }
+}
